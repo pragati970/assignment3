@@ -1,5 +1,7 @@
 ---
-- hosts: webservers
-  tasks:
-  - name:  nginx install
-    apt: name=nginx state=latest
+
+servers:
+
+  - name: Assignmentremote 
+
+    ip: 13.49.67.17 
