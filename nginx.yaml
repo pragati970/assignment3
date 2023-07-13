@@ -2,4 +2,6 @@
 - hosts: webservers
   tasks:
   - name:  nginx install
-    apt: name=nginx state=latest
+    apt: 
+      name=nginx 
+      state=present
