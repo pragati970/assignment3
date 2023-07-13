@@ -1,5 +1,6 @@
 ---
 - hosts: webservers
+  become: true
   tasks:
   - name:  apache2 install
     apt: name=apache2 state=present
